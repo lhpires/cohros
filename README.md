@@ -1,5 +1,3 @@
-# RASCUNHO GERAL
-
 # Sistema COHROS CONTATOS
 
 URL BACKEND: http://localhost
