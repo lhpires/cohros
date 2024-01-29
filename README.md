@@ -36,7 +36,7 @@ Vamos aplicar o preview de acordo com a pasta dist (Para simular produção)
 > 
 
 ```powershell
-npm run build ; npm run preview
+npm install ; npm run build ; npm run preview
 ```
 
 ### Populando usuários padrão
