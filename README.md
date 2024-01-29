@@ -80,4 +80,4 @@ senha: caique
 
 # Demonstração Sistema
 
-[favicon-cohros.ico](frontend/public/cohros.gif)
+[cohros.gif](frontend/public/cohros.gif)
