@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .login-social {
+        @apply w-full flex justify-center items-center gap-2 bg-white text-sm text-gray-600 p-2 rounded-md hover:bg-gray-50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-200 transition-colors duration-300
+    }
+
+    .login-social svg{ 
+        @apply w-4 h-4;
+    }
+
+    label.input-lhpires{
+        @apply block text-left pl-2 font-medium text-sm text-cohrosPrimary;
+    }
+    input.input-lhpires {
+        @apply mt-1 p-2 w-full border rounded-md focus:border-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 transition-colors duration-300;
+    }
+}
+
+
+.input-library{
+    @apply block w-full rounded-md border-0 py-1.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cohrosPrimary sm:text-sm sm:leading-6 outline-none
+}
+
+.button-library{
+    @apply w-full text-white bg-gradient-to-br bg-cohrosPrimary hover:bg-gradient-to-br focus:ring-4 focus:ring-cohrosPrimary/20 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
